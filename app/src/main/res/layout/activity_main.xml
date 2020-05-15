@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/etname"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/etpassword"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:id="@+id/signup"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:id="@+id/signin"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Show Map"
+            android:id="@+id/showmap"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/showroute"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Show Route" />
+        <Button
+            android:id="@+id/showfence"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Show fence" />
+        <Button
+            android:id="@+id/test"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Test" />
+    </LinearLayout>
+
+</LinearLayout>
